@@ -1,0 +1,10 @@
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\bin\Debug\udplocal2.exe.config
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\bin\Debug\udplocal2.exe
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\bin\Debug\udplocal2.pdb
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.csprojAssemblyReference.cache
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.Form1.resources
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.Properties.Resources.resources
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.csproj.GenerateResource.cache
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.csproj.CoreCompileInputs.cache
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.exe
+D:\Users\ТБИ\Проектный практикум 2021-2022\Лбаораторная работа 3_2021\udplocal2csharp_vs11\udplocal2csharp\udplocal2\obj\x86\Debug\udplocal2.pdb
