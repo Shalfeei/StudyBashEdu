@@ -13,6 +13,28 @@ app.use("/public", express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 app.use(express.json());
 
+var expressSession = require("express-session");
+app.use(expressSession({
+    "key": "user_id",
+    "secret": "User secret object ID",
+    "resave": true,
+    "saveUninitialized": true
+}));
+
+const getUser = (userId, callBack) => {
+    database.collection("users").findOne({
+        "_id": ObjectId(userId)
+    }, (error, result) => {
+        if (error) {
+            console.log(error);
+            return;
+        }
+        if (callBack != null) {
+            callBack(result);
+        }
+    });
+}
+
 http.listen(process.env.PORT || 3000, () => {
     console.log("Connected");
 
@@ -26,10 +48,22 @@ http.listen(process.env.PORT || 3000, () => {
         database = client.db("gallery_app");
 
         app.get("/", (request, result) => {
-            result.render("index", {
-                "isLogin": false,
-                "query": request.query
-            });
+
+            if (request.session.user_id) {
+                getUser(request.session.user_id, (user) => {
+                    result.render("index", {
+                        "isLogin": true,
+                        "query": request.query,
+                        "user": user
+                    })
+                });
+            } 
+            else {
+                result.render("index", {
+                    "isLogin": false,
+                    "query": request.query
+                });
+            }
         });
     });
 });
