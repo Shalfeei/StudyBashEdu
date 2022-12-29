@@ -1,0 +1,60 @@
+<div class="right-side">
+                <% if (typeof isLogin !== "undefined" && isLogin) { %> 
+
+                <div class ="header-widget">
+                    <div class="header-notifications user-menu">
+                        <div class="header-notifications-trigger">
+                            <a href="#">
+                                <div class="user-avatar status-online">
+                                    <img src="/public/images/admin.svg"
+                                    alt="Admin profile">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="header-notifications-dropdown">
+                            <div class="user-status">
+                                <div class="user-details">
+                                    <div class="user-avatar
+                                    status-online">
+                                        <img src="/public/images/
+                                        admin.svg" alt="">
+                                    </div>
+
+                                    <div class="user-name">
+                                        <%= user.name %>
+                                        <span><%= user.email %></span> 
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="user-menu-small-nav">
+                                <li>
+                                    <a href="/my_uploads">
+                                        <i class="icon-material-outline-backup"></i>
+                                        Загруженные изображения
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/logout">
+                                        <i class="icon-material-outline-power-settings-new"></i>
+                                        Выйти
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <% } else { %>
+
+                        <nav id="navigation">
+                            <ul id="responsive">
+                                <li><a href="/login">Войти</a></li>
+                                <li><a href="/register">Регистрация</a></li>
+                            </ul>
+                        </nav>
+
+                        <% } %>
+                        
+                    </div>
+                </div>
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+            </div>

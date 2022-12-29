@@ -48,22 +48,28 @@ http.listen(process.env.PORT || 3000, () => {
         database = client.db("gallery_app");
 
         app.get("/", (request, result) => {
+            result.render("index", {
+                "query": request.query
+            });
+        });
 
+        app.get("/adminPanel", (request, result) => {
             if (request.session.user_id) {
                 getUser(request.session.user_id, (user) => {
-                    result.render("index", {
+                    result.render("adminPanel", {
                         "isLogin": true,
                         "query": request.query,
                         "user": user
-                    })
+                    });
                 });
             } 
             else {
-                result.render("index", {
+                result.render("adminPanel", {
                     "isLogin": false,
                     "query": request.query
                 });
             }
         });
+
     });
 });

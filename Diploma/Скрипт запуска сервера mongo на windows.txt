@@ -1,3 +1,2 @@
 Set-ExecutionPolicy RemoteSigned -Scope Process
-
-mongod
+mongod --dbpath="c:\data\db\gallery" 
