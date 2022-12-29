@@ -21,6 +21,13 @@ app.use(expressSession({
     "saveUninitialized": true
 }));
 
+var bodyParser = require("body-parser");
+app.use(bodyParser.json({limit: "10000mb"}));
+app.use(bodyParser.urlencoded({ extended: true, limit: "10000mb", parameterLimit: 1000000 }));
+
+var bcrypt = require("bcrypt");
+const { resourceLimits } = require("worker_threads");
+
 const getUser = (userId, callBack) => {
     database.collection("users").findOne({
         "_id": ObjectId(userId)
@@ -53,10 +60,10 @@ http.listen(process.env.PORT || 3000, () => {
             });
         });
 
-        app.get("/adminPanel", (request, result) => {
+        app.get("/adminPanelAuth", (request, result) => {
             if (request.session.user_id) {
                 getUser(request.session.user_id, (user) => {
-                    result.render("adminPanel", {
+                    result.render("adminPanelAuth", {
                         "isLogin": true,
                         "query": request.query,
                         "user": user
@@ -64,12 +71,35 @@ http.listen(process.env.PORT || 3000, () => {
                 });
             } 
             else {
-                result.render("adminPanel", {
+                result.render("adminPanelAuth", {
                     "isLogin": false,
                     "query": request.query
                 });
             }
         });
+        app.post("/adminPanelAuth", (request, result) => {
+            var name = request.body.name;
+            var password = request.body.password;
+
+            database.collection("users").findOne({
+                "name": name
+            }, (error1, user) => {
+                if (user === null) {
+                    result.redirect("/adminPanelAuth?error=not_exists");
+                }
+                else {
+                    bcrypt.compare(password, user.password, (error2, isPasswordVerify) => {
+                        if (isPasswordVerify) {
+                            request.session.user_id = user._id;
+                            result.redirect("/adminPanel");
+                        }
+                        else {
+                            result.redirect("/adminPanelAuth?error=wrong_password");
+                        }
+                    })
+                }
+            })
+        })
 
     });
 });
