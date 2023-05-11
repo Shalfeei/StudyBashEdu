@@ -1,0 +1,359 @@
+<mxfile host="app.diagrams.net" modified="2023-05-11T11:24:50.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HnIe_5TH32cEOBpNJFx7" version="21.2.1" type="device">
+  <diagram name="Page-1" id="0I27-lu6FOEoJRCJkbyC">
+    <mxGraphModel dx="2537" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FSZa356uXx1vKhYE6617-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-1" target="FSZa356uXx1vKhYE6617-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-8" value="1-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-5">
+          <mxGeometry x="-0.3836" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-1" value="Периодичность тренировок?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-2" target="FSZa356uXx1vKhYE6617-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-18" value="Утро" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-12">
+          <mxGeometry x="-0.1304" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-13" value="День" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-2" target="FSZa356uXx1vKhYE6617-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-19" value="Вечер" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-14">
+          <mxGeometry x="0.176" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-2" value="Самое неудобное время?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-25" value="Качество сна" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-9" target="FSZa356uXx1vKhYE6617-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-26" value="Сила" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-9" target="FSZa356uXx1vKhYE6617-21">
+          <mxGeometry x="0.2593" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-27" value="Удовольствие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-9" target="FSZa356uXx1vKhYE6617-22">
+          <mxGeometry x="0.4444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-9" value="Цель тренировки?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-20" target="FSZa356uXx1vKhYE6617-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-38" value="полчаса" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-32">
+          <mxGeometry x="-0.1286" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-20" target="FSZa356uXx1vKhYE6617-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-40" value="час" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-33">
+          <mxGeometry x="0.1176" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-20" target="FSZa356uXx1vKhYE6617-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-41" value="2 часа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-34">
+          <mxGeometry x="0.2333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-20" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-21" target="FSZa356uXx1vKhYE6617-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-380" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-42" value="полчаса" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-37">
+          <mxGeometry x="-0.28" y="-2" relative="1" as="geometry">
+            <mxPoint x="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-21" target="FSZa356uXx1vKhYE6617-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-21" target="FSZa356uXx1vKhYE6617-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-48" value="час" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-47">
+          <mxGeometry x="-0.5524" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-49" value="2 часа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-47">
+          <mxGeometry x="0.5238" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-21" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-53" value="полчаса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-22" target="FSZa356uXx1vKhYE6617-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-54" value="час" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-22" target="FSZa356uXx1vKhYE6617-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-55" value="2 часа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-22" target="FSZa356uXx1vKhYE6617-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;20:00-20:30 Понедельник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="360" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-30" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;20:00-21:00 Понедельник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="410" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-31" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;19:00-21:00 Понедельник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="440" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-35" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;17:00-17:30 Вторник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="500" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;17:00-18:00 Вторник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="540" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-45" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;18:00-20:00 Вторник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="500" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-50" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;15:00-15:30 Суббота или воскресенье&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="370" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;15:00-16:00 Суббота или воскресенье&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="430" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-52" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;15:00-17:00 Суббота или воскресенье&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="370" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-61" value="Качество сна" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-64" target="FSZa356uXx1vKhYE6617-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-62" value="Сила" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-64" target="FSZa356uXx1vKhYE6617-80">
+          <mxGeometry x="0.2593" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-30" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-63" value="Удовольствие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-64" target="FSZa356uXx1vKhYE6617-87">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-64" value="Цель тренировки?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="520" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-73" value="полчаса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-65" target="FSZa356uXx1vKhYE6617-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-285" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-74" value="час" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-65" target="FSZa356uXx1vKhYE6617-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-76" value="два часа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-65" target="FSZa356uXx1vKhYE6617-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-65" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="630" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-69" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;20:00-20:30 Вторник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="670" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-70" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;20:00-21:00 Понедельник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="700" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-71" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;18:00-20:00 Понедельник Суббота&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="670" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-77" value="полчаса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-80" target="FSZa356uXx1vKhYE6617-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-117.5" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-78" value="час" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-80" target="FSZa356uXx1vKhYE6617-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-79" value="два часа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-80" target="FSZa356uXx1vKhYE6617-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-80" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="730" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-81" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-10:30 Вторник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-152.5" y="770" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-82" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-11:00 Вторник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="-67.5" y="800" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-83" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-12:00 Вторник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="770" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-84" value="полчаса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-85" value="час" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-87" target="FSZa356uXx1vKhYE6617-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-86" value="два часа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-87" target="FSZa356uXx1vKhYE6617-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-87" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="630" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-88" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-10:30 Вторник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry y="670" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-89" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-11:00 Вторник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="700" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-90" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-12:00 Вторник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="175" y="670" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-117" value="Сила" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-92" target="FSZa356uXx1vKhYE6617-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="230" />
+              <mxPoint x="305" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-118" value="Качество сна" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-92" target="FSZa356uXx1vKhYE6617-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-119" value="Удовольствие" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-92" target="FSZa356uXx1vKhYE6617-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-92" value="Цель тренировки?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-99" target="FSZa356uXx1vKhYE6617-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-94" value="полчаса" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-93">
+          <mxGeometry x="-0.1286" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-99" target="FSZa356uXx1vKhYE6617-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-96" value="час" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-95">
+          <mxGeometry x="0.1176" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-99" target="FSZa356uXx1vKhYE6617-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-98" value="2 часа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-97">
+          <mxGeometry x="0.2333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-99" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-106" target="FSZa356uXx1vKhYE6617-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-101" value="полчаса" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-100">
+          <mxGeometry x="-0.28" y="-2" relative="1" as="geometry">
+            <mxPoint x="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-106" target="FSZa356uXx1vKhYE6617-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-106" target="FSZa356uXx1vKhYE6617-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-104" value="час" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-103">
+          <mxGeometry x="-0.5524" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-105" value="2 часа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FSZa356uXx1vKhYE6617-103">
+          <mxGeometry x="0.5238" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-106" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-121" value="полчаса" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-107" target="FSZa356uXx1vKhYE6617-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-122" value="час" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-107" target="FSZa356uXx1vKhYE6617-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-123" value="2 часа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FSZa356uXx1vKhYE6617-107" target="FSZa356uXx1vKhYE6617-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-107" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Продолжительность&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-108" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-10:30 Четверг Суббота&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="320" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-109" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-11:00 Суббота или воскресенье&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="75" y="370" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-110" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;10:00-12:00 Понедельник Четверг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="155" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-111" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;09:00-09:30 Понедельник Среда&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-112" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;09:00-10:00 Среда Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-113" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;09:00-11:00 Вторник Суббота&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-114" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;13:00-13:30 Выходные дни&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="345" y="320" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-115" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;12:00-13:00 Суббота или воскресенье&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="435" y="360" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSZa356uXx1vKhYE6617-116" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;12:00-14:00 Вторник Пятница&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
