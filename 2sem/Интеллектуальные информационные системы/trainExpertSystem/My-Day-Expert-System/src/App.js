@@ -34,7 +34,6 @@ export default function App() {
 
 	let h = window.innerHeight;
 	let styles = useStyles();
-	const [info, setInfo] = useState(false);
 	const [completed, setCompleted] = useState(false);
 	const [conclusion, setConclusion] = useState("");
 	const [premises, setPremises] = useState([{ attribute: 'category', value: "sport" }]);
@@ -61,9 +60,6 @@ export default function App() {
 		setPremises(newPremises);
 	}
 
-	const handleInfo = () => {
-		setInfo(!info);
-	}
 	const handleCompleted = () => {
 		console.log("COMPLETED");
 		console.log(premises)
