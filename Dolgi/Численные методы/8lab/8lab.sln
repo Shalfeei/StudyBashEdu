@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8lab", "8lab\8lab.csproj", "{B1C460DB-B596-45C0-A3A8-22993CFDBE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11lab", "11lab\11lab.csproj", "{3421DD7E-D19E-4D64-B3B5-348EAC3DD2D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1C460DB-B596-45C0-A3A8-22993CFDBE27}.Debug|x86.ActiveCfg = Debug|x86
+		{B1C460DB-B596-45C0-A3A8-22993CFDBE27}.Debug|x86.Build.0 = Debug|x86
+		{B1C460DB-B596-45C0-A3A8-22993CFDBE27}.Release|x86.ActiveCfg = Release|x86
+		{B1C460DB-B596-45C0-A3A8-22993CFDBE27}.Release|x86.Build.0 = Release|x86
+		{3421DD7E-D19E-4D64-B3B5-348EAC3DD2D5}.Debug|x86.ActiveCfg = Debug|x86
+		{3421DD7E-D19E-4D64-B3B5-348EAC3DD2D5}.Debug|x86.Build.0 = Debug|x86
+		{3421DD7E-D19E-4D64-B3B5-348EAC3DD2D5}.Release|x86.ActiveCfg = Release|x86
+		{3421DD7E-D19E-4D64-B3B5-348EAC3DD2D5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -9,8 +9,8 @@ import Typography from '@material-ui/core/Typography';
 import Result from './assets/result.svg';
 
 export default function App() {
-
-	const forwardChainPers = assertions => {
+	//Сравнивает текущий набор ответов с возможными вариантами и возвращает соответствия
+	const forwardChain = assertions => {
 		let results = [];
 
 		variants.forEach(k => {
@@ -39,7 +39,7 @@ export default function App() {
 	const [premises, setPremises] = useState([{ attribute: 'category', value: "sport" }]);
 
 	const isPremise = name => premises.findIndex(p => p.attribute === name) !== -1;
-
+	//дополняет текущий набор ответов
 	const updatePremises = (attribute, value) => {
 		let exists = false;
 
@@ -56,7 +56,7 @@ export default function App() {
 			newPremises = [...premises, { attribute, value }]
 		}
 
-		console.log(forwardChainPers(newPremises));
+		console.log(forwardChain(newPremises));
 		setPremises(newPremises);
 	}
 
@@ -64,7 +64,7 @@ export default function App() {
 		console.log("COMPLETED");
 		console.log(premises)
 		setCompleted(!completed);
-		setConclusion(forwardChainPers(premises));
+		setConclusion(forwardChain(premises));
 	}
 
 	const handleTakeAgain = () => {

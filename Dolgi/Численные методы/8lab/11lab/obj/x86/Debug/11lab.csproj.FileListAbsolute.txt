@@ -1,0 +1,10 @@
+C:\Users\vopiraw\Documents\Visual Studio 2010\Projects\8lab\11lab\bin\Debug\11lab.exe
+C:\Users\vopiraw\Documents\Visual Studio 2010\Projects\8lab\11lab\bin\Debug\11lab.pdb
+C:\Users\vopiraw\Documents\Visual Studio 2010\Projects\8lab\11lab\obj\x86\Debug\11lab.exe
+C:\Users\vopiraw\Documents\Visual Studio 2010\Projects\8lab\11lab\obj\x86\Debug\11lab.pdb
+D:\БГУ\StudyBashEdu\Dolgi\Численные методы\8lab\11lab\bin\Debug\11lab.exe
+D:\БГУ\StudyBashEdu\Dolgi\Численные методы\8lab\11lab\bin\Debug\11lab.pdb
+D:\БГУ\StudyBashEdu\Dolgi\Численные методы\8lab\11lab\obj\x86\Debug\11lab.csproj.AssemblyReference.cache
+D:\БГУ\StudyBashEdu\Dolgi\Численные методы\8lab\11lab\obj\x86\Debug\11lab.csproj.CoreCompileInputs.cache
+D:\БГУ\StudyBashEdu\Dolgi\Численные методы\8lab\11lab\obj\x86\Debug\11lab.exe
+D:\БГУ\StudyBashEdu\Dolgi\Численные методы\8lab\11lab\obj\x86\Debug\11lab.pdb

@@ -1,0 +1,4 @@
+c:\users\vopiraw\documents\visual studio 2010\Projects\8lab\8lab\bin\Debug\8lab.exe
+c:\users\vopiraw\documents\visual studio 2010\Projects\8lab\8lab\bin\Debug\8lab.pdb
+c:\users\vopiraw\documents\visual studio 2010\Projects\8lab\8lab\obj\x86\Debug\8lab.exe
+c:\users\vopiraw\documents\visual studio 2010\Projects\8lab\8lab\obj\x86\Debug\8lab.pdb
